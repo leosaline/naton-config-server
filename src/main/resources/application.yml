@@ -6,4 +6,4 @@ spring:
     config:
       server:
         git:
-          uri: http://localhost:3000/leo/naton-config  profiles:  - dev
+          uri: http://localhost:3000/leo/naton-config
