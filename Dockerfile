@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-VOLUME /tmp /var/clone
+VOLUME /tmp /tmp/natonconfig:/var/clone
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} app.jar
 RUN rm -rf  /tmp/*
