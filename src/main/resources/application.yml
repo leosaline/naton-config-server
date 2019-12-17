@@ -7,3 +7,4 @@ spring:
       server:
         git:
           uri: http://localhost:3000/leo/naton-config
+          basedir:            /var/clone            
