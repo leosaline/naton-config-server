@@ -1,3 +1,3 @@
 spring:
   application:
-    name: naton-config-server
+    name: naton-config-server  cloud:    config:      server:        git:          uri: http://naton_web_1:3000/leo/naton-config
